@@ -1,0 +1,508 @@
+{
+  "schema_version": "1.0",
+  "class_level": 1,
+  "master_series": "Q1–Q10000",
+  "planned_questions": 10000,
+  "published_questions": 7000,
+  "missing_questions": 3000,
+  "published_volumes": 28,
+  "planned_volumes": 40,
+  "volume_size": 250,
+  "publication_state": "PARTIAL_SOURCE_GAP",
+  "numbering_reindex": {
+    "science": "legacy Q1–Q1000 → Q3001–Q4000",
+    "sports": "legacy Q1001–Q2000 → Q4001–Q5000"
+  },
+  "labs": [
+    {
+      "folder": "01-India-Lab",
+      "name": "🇮🇳 India",
+      "planned_range": [
+        1,
+        1000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 0,
+      "publication_status": "missing-source",
+      "volumes": [
+        {
+          "range": [
+            1,
+            250
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            251,
+            500
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            501,
+            750
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            751,
+            1000
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        }
+      ]
+    },
+    {
+      "folder": "02-Nature-Lab",
+      "name": "🌱 Nature",
+      "planned_range": [
+        1001,
+        2000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 0,
+      "publication_status": "missing-source",
+      "volumes": [
+        {
+          "range": [
+            1001,
+            1250
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            1251,
+            1500
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            1501,
+            1750
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            1751,
+            2000
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        }
+      ]
+    },
+    {
+      "folder": "03-Earth-Lab",
+      "name": "🌍 Earth",
+      "planned_range": [
+        2001,
+        3000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 0,
+      "publication_status": "missing-source",
+      "volumes": [
+        {
+          "range": [
+            2001,
+            2250
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            2251,
+            2500
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            2501,
+            2750
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        },
+        {
+          "range": [
+            2751,
+            3000
+          ],
+          "expected_questions": 250,
+          "status": "source-unavailable",
+          "path": null
+        }
+      ]
+    },
+    {
+      "folder": "04-Science-and-Technology-Lab",
+      "name": "🔬 Science & Technology",
+      "planned_range": [
+        3001,
+        4000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            3001,
+            3250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/04-Science-and-Technology-Lab/Q3001-3250.md"
+        },
+        {
+          "range": [
+            3251,
+            3500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/04-Science-and-Technology-Lab/Q3251-3500.md"
+        },
+        {
+          "range": [
+            3501,
+            3750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/04-Science-and-Technology-Lab/Q3501-3750.md"
+        },
+        {
+          "range": [
+            3751,
+            4000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/04-Science-and-Technology-Lab/Q3751-4000.md"
+        }
+      ]
+    },
+    {
+      "folder": "05-Sports-and-Entertainment-Lab",
+      "name": "🏅 Sports & Entertainment",
+      "planned_range": [
+        4001,
+        5000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            4001,
+            4250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/05-Sports-and-Entertainment-Lab/Q4001-4250.md"
+        },
+        {
+          "range": [
+            4251,
+            4500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/05-Sports-and-Entertainment-Lab/Q4251-4500.md"
+        },
+        {
+          "range": [
+            4501,
+            4750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/05-Sports-and-Entertainment-Lab/Q4501-4750.md"
+        },
+        {
+          "range": [
+            4751,
+            5000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/05-Sports-and-Entertainment-Lab/Q4751-5000.md"
+        }
+      ]
+    },
+    {
+      "folder": "06-Literature-Lab",
+      "name": "📚 Literature",
+      "planned_range": [
+        5001,
+        6000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            5001,
+            5250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/06-Literature-Lab/Q5001-5250.md"
+        },
+        {
+          "range": [
+            5251,
+            5500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/06-Literature-Lab/Q5251-5500.md"
+        },
+        {
+          "range": [
+            5501,
+            5750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/06-Literature-Lab/Q5501-5750.md"
+        },
+        {
+          "range": [
+            5751,
+            6000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/06-Literature-Lab/Q5751-6000.md"
+        }
+      ]
+    },
+    {
+      "folder": "07-Numbers-Lab",
+      "name": "🔢 Numbers",
+      "planned_range": [
+        6001,
+        7000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            6001,
+            6250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/07-Numbers-Lab/Q6001-6250.md"
+        },
+        {
+          "range": [
+            6251,
+            6500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/07-Numbers-Lab/Q6251-6500.md"
+        },
+        {
+          "range": [
+            6501,
+            6750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/07-Numbers-Lab/Q6501-6750.md"
+        },
+        {
+          "range": [
+            6751,
+            7000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/07-Numbers-Lab/Q6751-7000.md"
+        }
+      ]
+    },
+    {
+      "folder": "08-Life-Lab",
+      "name": "🌏 Life",
+      "planned_range": [
+        7001,
+        8000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            7001,
+            7250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/08-Life-Lab/Q7001-7250.md"
+        },
+        {
+          "range": [
+            7251,
+            7500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/08-Life-Lab/Q7251-7500.md"
+        },
+        {
+          "range": [
+            7501,
+            7750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/08-Life-Lab/Q7501-7750.md"
+        },
+        {
+          "range": [
+            7751,
+            8000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/08-Life-Lab/Q7751-8000.md"
+        }
+      ]
+    },
+    {
+      "folder": "09-Safety-Lab",
+      "name": "🛡️ Safety",
+      "planned_range": [
+        8001,
+        9000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            8001,
+            8250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/09-Safety-Lab/Q8001-8250.md"
+        },
+        {
+          "range": [
+            8251,
+            8500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/09-Safety-Lab/Q8251-8500.md"
+        },
+        {
+          "range": [
+            8501,
+            8750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/09-Safety-Lab/Q8501-8750.md"
+        },
+        {
+          "range": [
+            8751,
+            9000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/09-Safety-Lab/Q8751-9000.md"
+        }
+      ]
+    },
+    {
+      "folder": "10-World-and-Awareness-Lab",
+      "name": "🌎 World & Awareness",
+      "planned_range": [
+        9001,
+        10000
+      ],
+      "planned_questions": 1000,
+      "published_questions": 1000,
+      "publication_status": "published",
+      "volumes": [
+        {
+          "range": [
+            9001,
+            9250
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/10-World-and-Awareness-Lab/Q9001-9250.md"
+        },
+        {
+          "range": [
+            9251,
+            9500
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/10-World-and-Awareness-Lab/Q9251-9500.md"
+        },
+        {
+          "range": [
+            9501,
+            9750
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/10-World-and-Awareness-Lab/Q9501-9750.md"
+        },
+        {
+          "range": [
+            9751,
+            10000
+          ],
+          "expected_questions": 250,
+          "status": "published",
+          "path": "Class-1/10-World-and-Awareness-Lab/Q9751-10000.md"
+        }
+      ]
+    }
+  ]
+}
