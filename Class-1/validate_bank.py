@@ -20,7 +20,7 @@ for lab in manifest["labs"]:
             errors.append(f"Missing published volume: {path}")
             continue
         text = src.read_text(encoding="utf-8")
-        matches = list(re.finditer(r"(?m)^###\\s*Q\\s*([\\d,]+)(?=\\s|\\.|$)", text))
+        matches = list(re.finditer(r"(?m)^###\s*Q\s*([\d,]+)(?=\s|\.|$)", text))
         ids = [int(m.group(1).replace(",", "")) for m in matches]
         a, b = volume["range"]
         if ids != list(range(a, b + 1)):
@@ -29,19 +29,22 @@ for lab in manifest["labs"]:
             end = matches[i + 1].start() if i+1 < len(matches) else len(text)
             piece = text[match.end():end]
             q = ids[i]
-            if not re.search(r"(?m)^\\*\\*Answer:", piece):
+            if not re.search(r"(?m)^\*\*Answer:", piece):
                 errors.append(f"No answer: Q{q} in {path}")
-            if not re.search(r"(?m)^(?:💡\\s*)?\\*\\*Explanation:", piece):
+            if not re.search(r"(?m)^(?:💡\s*)?\*\*Explanation:", piece):
                 errors.append(f"No explanation: Q{q} in {path}")
+            heading = text[match.start():text.find("\n", match.start()) if "\n" in text[match.start():] else len(text)]
+            if q % 25 == 0 and "SUPER OLYMPIAD" not in heading.upper():
+                errors.append(f"Super Olympiad challenge label missing: Q{q} in {path}")
         seen.extend(ids)
         checked += 1
-dupes = [n for n,c in Counter(seen).items() if c>1]
+dupes = [n for n,c in Counter(seen).items() if c > 1]
 if dupes:
     errors.append(f"Duplicate IDs: {dupes[:20]}")
 expected = manifest["published_questions"]
 if len(seen) != expected:
     errors.append(f"Published question count: {len(seen)}; expected {expected}")
-print(f"Validated {checked} published volumes, {len(seen)} question IDs; expected bank total {manifest['planned_questions']}")
+print(f"Validated {checked} published volumes, {len(seen)} question IDs; planned bank total {manifest['planned_questions']}")
 if errors:
     print("STRUCTURAL CHECK FAILED")
     for error in errors: print("-", error)
