@@ -2,15 +2,15 @@
 
 **Mission:** Architecting Experiences for a Better World.
 
-## Publication milestone — 10,000 / 10,000 numbered questions
+## Publication milestone — 10,000 / 10,000 numbered questions (40/40 volumes present)
 
-**Structural publication: 100% — 10 Labs × 1,000 numbered MCQs × 4 volumes per Lab = 40 Markdown files.**
+**Repository inventory: 100% — 10 Labs × 4 Markdown volumes per Lab = 40 files covering the Q1–Q10,000 numbering ranges.**
 
-- **Published:** Q1 through Q10,000 across all 10 Labs.
-- **Volumes:** 40 Markdown files, with 250 question numbers in each volume.
+- **Published inventory:** All 40 expected volume files are present, spanning Q1 through Q10,000.
+- **Volumes:** 40 Markdown files, each assigned a 250-question range; a fresh question-level structural validation is still required.
 - **Sets:** 10 sets of 25 questions per volume (400 sets planned across the bank).
 - **Question format:** four options (A–D), answer, explanation, with the 25th question of each set marked as a Super Olympiad Challenge.
-- **Status distinction:** All files exist; **editorial/assessment readiness has not been certified**. Reconstructed India, Nature, and Earth materials contain repeated concepts and templates. The full bank still needs independent fact checking, question-diversity evaluation and difficulty calibration.
+- **Status distinction:** All 40 files exist; **editorial/assessment readiness has not been certified**. Reconstructed India, Nature, and Earth materials contain repeated concepts and templates. The full bank still needs independent fact checking, question-diversity evaluation and difficulty calibration.
 
 ## Learning Labs
 
@@ -90,6 +90,8 @@ Treat each 25-question set as a learning experiment: explore a theme, answer, ex
 4. Replace formulaic repetitions with distinct observation, classification, scenario, application and reasoning tasks.
 5. Calibrate to Class 1 age, reading level and relevant GK/Olympiad learning outcomes.
 6. Review and mark the bank assessment-ready only after editorial sign-off.
+
+**Tracking metadata:** `manifest.json` and `QUALITY-REPORT.md` reflect the current 40-volume repository inventory; publication coverage is not editorial certification.
 
 **Supporting resources:** [Quality report](./QUALITY-REPORT.md) · [Machine-readable manifest](./manifest.json) · [Bank validator](./validate_bank.py)
 
