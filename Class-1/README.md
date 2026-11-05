@@ -2,30 +2,44 @@
 
 **Mission:** Architecting Experiences for a Better World.
 
-**Master plan:** 10 Labs × 1,000 questions = **10,000 questions (Q1–Q10,000)**. Each Lab is split into **4 Markdown volumes of 250 questions**, each volume into 10 sets of 25. Questions include options, answer and explanation; the final question per set is intended as a Super Olympiad Challenge.
+## Publication milestone — 10,000 / 10,000 numbered questions
 
-## Publication status
+**Structural publication: 100% — 10 Labs × 1,000 numbered MCQs × 4 volumes per Lab = 40 Markdown files.**
 
-- ✅ **7,000 questions verified and published** in 28 volumes (Q3,001–Q10,000).
-- ⏳ **3,000 questions not yet published**: India, Nature, Earth (Q1–Q3,000). Earlier conversations said these had been drafted, but complete source files could not be located for verification.
-- **Actual publication completeness:** 70% of the planned bank. _Do not present the 10,000 count as fully published yet._
+- **Published:** Q1 through Q10,000 across all 10 Labs.
+- **Volumes:** 40 Markdown files, with 250 question numbers in each volume.
+- **Sets:** 10 sets of 25 questions per volume (400 sets planned across the bank).
+- **Question format:** four options (A–D), answer, explanation, with the 25th question of each set marked as a Super Olympiad Challenge.
+- **Status distinction:** All files exist; **editorial/assessment readiness has not been certified**. Reconstructed India, Nature, and Earth materials contain repeated concepts and templates. The full bank still needs independent fact checking, question-diversity evaluation and difficulty calibration.
 
 ## Learning Labs
 
-| # | Lab | Master ID range | Published | Open the Lab |
+| # | Lab | Canonical question IDs | Published | Open Lab |
 |---:|---|---|---:|---|
-| 1 | 🇮🇳 India | Q1–Q1,000 | 0/1,000 | [Browse](./01-India-Lab/README.md) |
-| 2 | 🌱 Nature | Q1,001–Q2,000 | 0/1,000 | [Browse](./02-Nature-Lab/README.md) |
-| 3 | 🌍 Earth | Q2,001–Q3,000 | 0/1,000 | [Browse](./03-Earth-Lab/README.md) |
-| 4 | 🔬 Science & Technology | Q3,001–Q4,000 | 1,000/1,000 | [Browse](./04-Science-and-Technology-Lab/README.md) |
-| 5 | 🏅 Sports & Entertainment | Q4,001–Q5,000 | 1,000/1,000 | [Browse](./05-Sports-and-Entertainment-Lab/README.md) |
-| 6 | 📚 Literature | Q5,001–Q6,000 | 1,000/1,000 | [Browse](./06-Literature-Lab/README.md) |
-| 7 | 🔢 Numbers | Q6,001–Q7,000 | 1,000/1,000 | [Browse](./07-Numbers-Lab/README.md) |
-| 8 | 🌏 Life | Q7,001–Q8,000 | 1,000/1,000 | [Browse](./08-Life-Lab/README.md) |
-| 9 | 🛡️ Safety | Q8,001–Q9,000 | 1,000/1,000 | [Browse](./09-Safety-Lab/README.md) |
-| 10 | 🌎 World & Awareness | Q9,001–Q10,000 | 1,000/1,000 | [Browse](./10-World-and-Awareness-Lab/README.md) |
+| 1 | 🇮🇳 India | Q1–Q1,000 | 1,000 / 1,000 | [Browse India](./01-India-Lab/README.md) |
+| 2 | 🌱 Nature | Q1,001–Q2,000 | 1,000 / 1,000 | [Browse Nature](./02-Nature-Lab/README.md) |
+| 3 | 🌍 Earth | Q2,001–Q3,000 | 1,000 / 1,000 | [Browse Earth](./03-Earth-Lab/README.md) |
+| 4 | 🔬 Science & Technology | Q3,001–Q4,000 | 1,000 / 1,000 | [Browse Science & Technology](./04-Science-and-Technology-Lab/README.md) |
+| 5 | 🏅 Sports & Entertainment | Q4,001–Q5,000 | 1,000 / 1,000 | [Browse Sports & Entertainment](./05-Sports-and-Entertainment-Lab/README.md) |
+| 6 | 📚 Literature | Q5,001–Q6,000 | 1,000 / 1,000 | [Browse Literature](./06-Literature-Lab/README.md) |
+| 7 | 🔢 Numbers | Q6,001–Q7,000 | 1,000 / 1,000 | [Browse Numbers](./07-Numbers-Lab/README.md) |
+| 8 | 🌏 Life | Q7,001–Q8,000 | 1,000 / 1,000 | [Browse Life](./08-Life-Lab/README.md) |
+| 9 | 🛡️ Safety | Q8,001–Q9,000 | 1,000 / 1,000 | [Browse Safety](./09-Safety-Lab/README.md) |
+| 10 | 🌎 World & Awareness | Q9,001–Q10,000 | 1,000 / 1,000 | [Browse World & Awareness](./10-World-and-Awareness-Lab/README.md) |
 
-## Direct access to all published volumes
+## Direct access — all 40 published volumes
+
+### 🇮🇳 India — Q1–Q1,000
+
+[Volume 1: Q1–Q250](./01-India-Lab/Q0001-0250.md) · [Volume 2: Q251–Q500](./01-India-Lab/Q0251-0500.md) · [Volume 3: Q501–Q750](./01-India-Lab/Q0501-0750.md) · [Volume 4: Q751–Q1,000](./01-India-Lab/Q0751-1000.md)
+
+### 🌱 Nature — Q1,001–Q2,000
+
+[Volume 1: Q1,001–Q1,250](./02-Nature-Lab/Q1001-1250.md) · [Volume 2: Q1,251–Q1,500](./02-Nature-Lab/Q1251-1500.md) · [Volume 3: Q1,501–Q1,750](./02-Nature-Lab/Q1501-1750.md) · [Volume 4: Q1,751–Q2,000](./02-Nature-Lab/Q1751-2000.md)
+
+### 🌍 Earth — Q2,001–Q3,000
+
+[Volume 1: Q2,001–Q2,250](./03-Earth-Lab/Q2001-2250.md) · [Volume 2: Q2,251–Q2,500](./03-Earth-Lab/Q2251-2500.md) · [Volume 3: Q2,501–Q2,750](./03-Earth-Lab/Q2501-2750.md) · [Volume 4: Q2,751–Q3,000](./03-Earth-Lab/Q2751-3000.md)
 
 ### 🔬 Science & Technology — Q3,001–Q4,000
 
@@ -55,12 +69,30 @@
 
 [Volume 1: Q9,001–Q9,250](./10-World-and-Awareness-Lab/Q9001-9250.md) · [Volume 2: Q9,251–Q9,500](./10-World-and-Awareness-Lab/Q9251-9500.md) · [Volume 3: Q9,501–Q9,750](./10-World-and-Awareness-Lab/Q9501-9750.md) · [Volume 4: Q9,751–Q10,000](./10-World-and-Awareness-Lab/Q9751-10000.md)
 
-## Progression and question architecture
+## Learning experience and progression
 
-**Foundation → Knowledge → Observation → Classification → Application → Reasoning → HOTS → Olympiad**. Use the Labs flexibly: choose a subject or skill, practise one 25-question set, review immediate explanations, then revisit incorrect answers in an applied mini-project or discussion.
+**Foundation → Knowledge → Observation → Classification → Application → Reasoning → Higher-Order Thinking Skills (HOTS) → Olympiad.**
 
-**Canonical identifiers:** Science and Sports were originally drafted under legacy Q1–Q2,000 numbering. For this master repository, Science is **Q3,001–Q4,000**, Sports is **Q4,001–Q5,000**. Only one canonical ID should exist per question across all Labs.
+Treat each 25-question set as a learning experiment: explore a theme, answer, explain your reasoning, compare choices, investigate mistakes, and apply the idea to real life. Learners can select a Lab without following a rigid linear curriculum.
 
-## Quality and next steps
+## Master numbering and source provenance
 
-See [Quality report](./QUALITY-REPORT.md), [machine-readable manifest](./manifest.json), and [bank validator](./validate_bank.py). Numerical continuity and presence of answer/explanation fields are verified for the published source volumes. Subject-matter accuracy, near-duplicates, educational calibration, and appropriateness require a further editorial review.
+- Canonical IDs are continuous from **Q1 to Q10,000** across the ten Labs.
+- Science and Sports source files previously used overlapping legacy numbering. Their canonical published ranges are **Science Q3,001–Q4,000** and **Sports Q4,001–Q5,000**.
+- India, Nature and Earth are **reconstructed editions**, not recovered originals. Repetition of core facts across multiple question templates is documented and requires attention.
+- Publication of a numbered question does **not** imply it is a unique, expert-reviewed or age-calibrated Olympiad item.
+
+## Quality assurance — still required
+
+1. Audit duplicate and near-duplicate question meanings, especially within reconstructed Labs 1–3.
+2. Verify correctness of every answer, explanation, distractor and time-sensitive fact.
+3. Verify question numbering, the presence of A–D options, answer alignment and set boundaries in the live repository.
+4. Replace formulaic repetitions with distinct observation, classification, scenario, application and reasoning tasks.
+5. Calibrate to Class 1 age, reading level and relevant GK/Olympiad learning outcomes.
+6. Review and mark the bank assessment-ready only after editorial sign-off.
+
+**Supporting resources:** [Quality report](./QUALITY-REPORT.md) · [Machine-readable manifest](./manifest.json) · [Bank validator](./validate_bank.py)
+
+---
+
+_One-Ed Quiz · SuccessLabs Academy · Architecting Experiences for a Better World._
