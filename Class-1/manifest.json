@@ -3,12 +3,12 @@
   "class_level": 1,
   "master_series": "Q1–Q10000",
   "planned_questions": 10000,
-  "published_questions": 7000,
-  "missing_questions": 3000,
-  "published_volumes": 28,
+  "published_questions": 10000,
+  "missing_questions": 0,
+  "published_volumes": 40,
   "planned_volumes": 40,
   "volume_size": 250,
-  "publication_state": "PARTIAL_SOURCE_GAP",
+  "publication_state": "COMPLETE_FILE_INVENTORY_EDITORIAL_REVIEW_PENDING",
   "numbering_reindex": {
     "science": "legacy Q1–Q1000 → Q3001–Q4000",
     "sports": "legacy Q1001–Q2000 → Q4001–Q5000"
@@ -22,8 +22,8 @@
         1000
       ],
       "planned_questions": 1000,
-      "published_questions": 0,
-      "publication_status": "missing-source",
+      "published_questions": 1000,
+      "publication_status": "published-reconstructed-review-pending",
       "volumes": [
         {
           "range": [
@@ -31,8 +31,8 @@
             250
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/01-India-Lab/Q0001-0250.md"
         },
         {
           "range": [
@@ -40,8 +40,8 @@
             500
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/01-India-Lab/Q0251-0500.md"
         },
         {
           "range": [
@@ -49,8 +49,8 @@
             750
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/01-India-Lab/Q0501-0750.md"
         },
         {
           "range": [
@@ -58,8 +58,8 @@
             1000
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/01-India-Lab/Q0751-1000.md"
         }
       ]
     },
@@ -71,8 +71,8 @@
         2000
       ],
       "planned_questions": 1000,
-      "published_questions": 0,
-      "publication_status": "missing-source",
+      "published_questions": 1000,
+      "publication_status": "published-reconstructed-review-pending",
       "volumes": [
         {
           "range": [
@@ -80,8 +80,8 @@
             1250
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/02-Nature-Lab/Q1001-1250.md"
         },
         {
           "range": [
@@ -89,8 +89,8 @@
             1500
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/02-Nature-Lab/Q1251-1500.md"
         },
         {
           "range": [
@@ -98,8 +98,8 @@
             1750
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/02-Nature-Lab/Q1501-1750.md"
         },
         {
           "range": [
@@ -107,8 +107,8 @@
             2000
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/02-Nature-Lab/Q1751-2000.md"
         }
       ]
     },
@@ -120,8 +120,8 @@
         3000
       ],
       "planned_questions": 1000,
-      "published_questions": 0,
-      "publication_status": "missing-source",
+      "published_questions": 1000,
+      "publication_status": "published-reconstructed-review-pending",
       "volumes": [
         {
           "range": [
@@ -129,8 +129,8 @@
             2250
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/03-Earth-Lab/Q2001-2250.md"
         },
         {
           "range": [
@@ -138,8 +138,8 @@
             2500
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/03-Earth-Lab/Q2251-2500.md"
         },
         {
           "range": [
@@ -147,8 +147,8 @@
             2750
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/03-Earth-Lab/Q2501-2750.md"
         },
         {
           "range": [
@@ -156,8 +156,8 @@
             3000
           ],
           "expected_questions": 250,
-          "status": "source-unavailable",
-          "path": null
+          "status": "published-reconstructed-review-pending",
+          "path": "Class-1/03-Earth-Lab/Q2751-3000.md"
         }
       ]
     },
@@ -504,5 +504,7 @@
         }
       ]
     }
-  ]
+  ],
+  "inventory_verified_date": "2026-11-05",
+  "inventory_verification_scope": "All 10 lab directories and 40 expected volume files exist; contents not revalidated question-by-question"
 }
