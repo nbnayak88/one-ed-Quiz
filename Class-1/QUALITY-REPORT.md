@@ -1,33 +1,43 @@
 # Class 1 Publication Quality Report
 
-**Publication date:** 2026-11-04  
-**Target repository:** `nbnayak88/one-ed-Quiz`  
-**Scope:** 40 planned Markdown volumes; 28 published and structurally inspected.
+**Inventory reconciliation date:** 2026-11-05  
+**Repository:** `nbnayak88/one-ed-Quiz`  
+**Scope:** Class-1, all 10 Labs and 40 expected Markdown volumes.
 
-## Verified structural results
+## Current repository inventory
 
-| Check | Result |
+| Check | Current finding |
 |---|---|
-| Uploaded source volumes | 28 |
-| Questions in each uploaded volume | 250 (validated) |
-| Question ID continuity inside each volume | Yes (validated) |
-| Published canonical range | Q3,001–Q10,000 |
-| Published questions with no range gaps in that interval | 7,000 |
-| Missing canonical range | Q1–Q3,000 (12 volumes) |
-| Answer line in source questions | Present in the 7,000 source questions during local audit |
-| Explanation line in source questions | Present in the 7,000 source questions during local audit |
-| Verified factual correctness of every answer | NOT yet independently reviewed |
-| Verified absence of question-stem duplicates | NOT yet independently reviewed |
-| Verified age/difficulty and syllabus fit | NOT yet independently reviewed |
+| Expected Labs | 10 |
+| Lab directories present | 10 / 10 |
+| Expected Markdown question volumes | 40 |
+| Question volume files present | 40 / 40 |
+| Assigned canonical numbering ranges | Q1–Q10,000 |
+| Expected questions per volume | 250 |
+| Total question slots covered by filenames | 10,000 |
+| Missing expected volume files | 0 |
+| Question-by-question structural validation on current revision | Not yet rerun |
+| Independent factual/editorial verification | Not certified |
+| Duplicate/near-duplicate content review | Not certified |
+| Class 1 reading-level and Olympiad calibration | Not certified |
 
-## Source-availability gap
+## Correction to previous report
 
-India (Q1–Q1,000), Nature (Q1,001–Q2,000), and Earth (Q2,001–Q3,000) were recorded as complete in historical chat progress reports, but full source Markdown files could not be found in current conversation attachments or accessible file search. Their folders contain only navigation/availability information, never invented filler questions.
+The 2026-11-04 report described **28 published volumes / 7,000 questions** and an unavailable **Q1–Q3,000** source range. That description is superseded: all twelve India, Nature and Earth volume files are now present in the live repository. The earlier 7,000-question count is **not** the current publication inventory.
 
-## Reindexing
+## Source provenance and caution
 
-Historical Science Q1–Q1,000 is remapped to Q3,001–Q4,000. Historical Sports Q1,001–Q2,000 is remapped to Q4,001–Q5,000. This resolves canonical-number collisions and preserves each Lab's position in the 10,000-question series.
+India, Nature and Earth are reconstructed editions rather than recovered originals. Repeated concepts and formulaic questions may remain. Science and Sports were renumbered from legacy overlapping ranges into canonical Q3,001–4,000 and Q4,001–5,000 respectively.
 
-## Editorial next pass
+**Publication coverage is complete at the file-inventory level; question quality is not yet certified.** Do not equate 10,000 numbered slots with 10,000 independently validated, unique, accurate questions.
 
-Check answer correctness, distractor plausibility, repeated question stems, grade-appropriate difficulty, ambiguous claims, syllabus mapping, and whether every 25th question is marked as a Super Olympiad Challenge. Use `validate_bank.py` for automated structural checks, then human review for learning quality.
+## Next quality gate
+
+1. Run `python Class-1/validate_bank.py` against the latest main branch.
+2. Confirm Q1–Q10,000 continuity, A–D options, answers, explanations and each set's Super Olympiad label.
+3. Detect exact and semantic duplicates; prioritize reconstructed Labs 1–3.
+4. Fact-check correct answers and explanations, distractor quality and ambiguous claims.
+5. Check Class 1 age suitability, difficulty progression and curriculum alignment.
+6. Record reviewer sign-off before describing the bank as assessment-ready.
+
+_This report records a live file-inventory reconciliation, not a completed question-level audit._
